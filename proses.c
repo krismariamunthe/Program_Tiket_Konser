@@ -122,6 +122,7 @@ void pembelian(){
     if(clas > 0){
     	system("cls");
     	struk_tiket();
+    	cetak_tiket(nama, email, tlpn);
 	}else{
 		system("cls");
 		clas_tiket();
