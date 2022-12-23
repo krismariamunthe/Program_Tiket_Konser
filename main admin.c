@@ -9,8 +9,6 @@ int main(){
 return 0;
 }
 
-//205 == lurus 200 = bawah kiri ,201,225,225,193
-
 int home_page() {
     int pilihan;
 
@@ -32,7 +30,7 @@ int home_page() {
         break;
         case 2:
             system("cls");
-            tiket_jual();
+            //tiket_jual();
         break;
         default :
             system("cls");
