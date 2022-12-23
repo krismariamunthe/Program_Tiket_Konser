@@ -113,10 +113,9 @@ void pembelian(){
     printf("\t\t\t|             MASUKAN DATA DIRI ANDA             |\n");
     printf("\t\t\t--------------------------------------------------\n");
     printf("\t\t\tNama\n\t\t\t>> ");
-    //nama = inputan();
-     scanf("%s", &nama);
+    scanf("%[^\n]", &nama);
+    fflush(stdin);
     printf("\t\t\tEmail\n\t\t\t>> ");
-    //email = inputan();
     scanf("%s", &email);
     printf("\t\t\tNo HP\n\t\t\t>> ");
     scanf("%s", &tlpn);
@@ -127,7 +126,6 @@ void pembelian(){
     pilih_tiket();
     system("cls");
     pilih_hari();
-    // system("cls");
 }
 
 

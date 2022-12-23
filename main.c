@@ -24,7 +24,6 @@ int home_page() {
     printf("\t\t\t|------------------------------------------------|\n");
     printf("\t\t\t>> ");
     pilihan = inputan();
-    //scanf("%d",&pilihan);
     fflush(stdin);
 
     switch(pilihan){

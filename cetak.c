@@ -32,12 +32,16 @@ void struk_tiket(int n, char nama[30], char email[15], char tlpn[15], char phari
 }
 
 void beli(int n){
-    FILE* file=fopen("tiket terjual.txt", "a");
+    FILE* file=fopen("tiket terjual.txt", "r");
     int nilai, hasil;
 
-    fscanf(file,"%d", nilai);
+    fscanf(file,"%d", &nilai);
+    fclose(file);
+
+    FILE* file2=fopen("tiket terjual.txt", "w");
     hasil = nilai + n;
-    fprintf (file,"%d", hasil);
+    fprintf (file2,"%d", hasil);
+    fclose(file2);
 }
 
 void cetak_tiket(int n, char nama[30],char email[15], char tlpn[15], char phari[10], char pclas[10]){
