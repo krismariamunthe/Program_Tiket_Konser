@@ -43,7 +43,7 @@ int home_page() {
             system("cls");
             printf("\t\t\t---------------------------------------------\n");
             printf("\t\t\t|               INPUTAN ERROR               |\n");
-            printf("\t\t\t---------------------------------------------\n");
+            printf("\tt\t---------------------------------------------\n");
             system("pause");
             system("cls");
             goto kembali1;

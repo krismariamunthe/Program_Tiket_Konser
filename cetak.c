@@ -6,13 +6,14 @@ int x;
 time_t waktu;
 
 void cetak_tiket(int n, char nama[30],char email[15], char tlpn[15], char phari[10], char pclas[10]);
+void beli(int n);
 
 void struk_tiket(int n, char nama[30], char email[15], char tlpn[15], char phari[10], char pclas[10]){
 	
     int i;
 
-
 	system("cls");
+    beli(n);
     for(i = 1; i<=n;i++){
         x = 200+rand()%900;
         printf("\t\t\t--------------------------------------------------\n");
@@ -28,6 +29,15 @@ void struk_tiket(int n, char nama[30], char email[15], char tlpn[15], char phari
         printf("\t\t\t|------------------------------------------------|\n\n\n");
         cetak_tiket(n, nama, email, tlpn, phari, pclas);
     }
+}
+
+void beli(int n){
+    FILE* file=fopen("tiket terjual.txt", "a");
+    int nilai, hasil;
+
+    fscanf(file,"%d", nilai);
+    hasil = nilai + n;
+    fprintf (file,"%d", hasil);
 }
 
 void cetak_tiket(int n, char nama[30],char email[15], char tlpn[15], char phari[10], char pclas[10]){
@@ -47,3 +57,4 @@ void cetak_tiket(int n, char nama[30],char email[15], char tlpn[15], char phari[
     fprintf(tiket,"\t\t\t|  DATE PEMBELIAN >  %s\t\t\t\t|\n", ctime (&waktu));
 	fprintf(tiket,"\t\t\t|------------------------------------------------|\n\n");   
 }
+
