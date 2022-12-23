@@ -30,7 +30,7 @@ int home_page() {
         break;
         case 2:
             system("cls");
-            //tiket_jual();
+            tiket_jual();
         break;
         default :
             system("cls");
