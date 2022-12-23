@@ -1,0 +1,26 @@
+			--------------------------------------------------
+			|<<<<<<<<<<<<<<<<   STRUK TIKET   >>>>>>>>>>>>>>>|
+			|------------------------------------------------|
+			|  NOMOR TIKET    >  241						|
+			|  CLASS TIKET    >  GOLD						|
+			|  DAY            >  Jum'at						|
+			|  NAMA PELANGGAN >  Krismaria Munthe						|
+			|  NOMOR TELEPON  >  082314						|
+			|  EMAIL          >  krismaria@gmail.²¥c						|
+			|  DATE PEMBELIAN >  Fri Dec 23 21:50:19 2022
+				|
+			|------------------------------------------------|
+
+			--------------------------------------------------
+			|<<<<<<<<<<<<<<<<   STRUK TIKET   >>>>>>>>>>>>>>>|
+			|------------------------------------------------|
+			|  NOMOR TIKET    >  667						|
+			|  CLASS TIKET    >  GOLD						|
+			|  DAY            >  Jum'at						|
+			|  NAMA PELANGGAN >  Krismaria Munthe						|
+			|  NOMOR TELEPON  >  082314						|
+			|  EMAIL          >  krismaria@gmail.²¥c						|
+			|  DATE PEMBELIAN >  Fri Dec 23 21:50:19 2022
+				|
+			|------------------------------------------------|
+
