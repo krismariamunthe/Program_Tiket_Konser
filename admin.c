@@ -17,7 +17,7 @@ int home_page() {
     printf("\t\t\t|<<<<<<<<<<<<<<<    MENU UTAMA    >>>>>>>>>>>>>>>|\n");
     printf("\t\t\t|------------------------------------------------|\n");
     printf("\t\t\t|  [1]  DATA PEMBELIAN TIKET                     |\n");
-    printf("\t\t\t|  [2]  TIKET TERJUAL                            |\n");
+    printf("\t\t\t|  [2]  JUMLAH TIKET TERJUAL                     |\n");
     printf("\t\t\t|------------------------------------------------|\n");
     printf("\t\t\t>> ");
     pilihan = inputan();
