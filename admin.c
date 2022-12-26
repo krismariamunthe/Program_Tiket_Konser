@@ -4,12 +4,12 @@
 
 void info();
 
-int main(){
-    home_page();
-return 0;
-}
+// int main(){
+//     home();
+// return 0;
+// }
 
-int home_page() {
+void home() {
     int pilihan;
 
     kembali1:
@@ -42,7 +42,6 @@ int home_page() {
             goto kembali1;
         break;
     }
-return 0;
 }
 
 int inputan(){
