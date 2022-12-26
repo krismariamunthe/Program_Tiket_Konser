@@ -45,7 +45,7 @@ kembali:
         break;
         case 0:
             system("cls");
-            user();
+            // user();
         break;
         default :
             system("cls");
@@ -96,7 +96,7 @@ kembali:
         break;
         case 9:
             system("cls");
-            user();
+            // user();
         break;
         default:
             system("cls");
@@ -163,7 +163,7 @@ kembali:
 		list_tiket();
 	break;
 	case 9:
-		user();
+		// user();
 	break;
     default :
         system("cls");

@@ -12,7 +12,7 @@ int inputan();
 // }
 
 
-void user() {
+void user12() {
     int pilihan;
 
     kembali1:

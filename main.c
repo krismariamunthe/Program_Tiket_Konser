@@ -120,7 +120,7 @@ void login() {
         if (strcmp(username,"admin") == 0 && strcmp(password,"00000") == 0){
             halaman_admin();
         }else{
-            halaman_user();
+            user12();
         }
 		//menu();
 	}
