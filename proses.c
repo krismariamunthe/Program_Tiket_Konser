@@ -5,8 +5,10 @@
 
 char phari[10]; //MENAMPUNG DATA HARI PEMBELIAN TIKET
 char pclas[10]; //MENAMPUNG DATA CLASS TIKET
-char nama[30], email[15], tlpn[15]; //MENAMPUNG DATA DIRI PEMBELI TIKET
+char nama[30], email[15];
+int tlpn; //MENAMPUNG DATA DIRI PEMBELI TIKET
 int n; //BANYAK TIKET YANG DI BELI
+int harga_tiket; //HARGA TIKET
 
 
 void hari();
@@ -14,6 +16,8 @@ void pembelian();
 void clas_tiket();
 void pilih_hari();
 void pilih_tiket();
+void pembayaran();
+int cek();
 
 void list_tiket(){
     int jenis;
@@ -41,7 +45,7 @@ kembali:
         break;
         case 0:
             system("cls");
-            home_page();
+            user();
         break;
         default :
             system("cls");
@@ -92,7 +96,7 @@ kembali:
         break;
         case 9:
             system("cls");
-            home_page();
+            user();
         break;
         default:
             system("cls");
@@ -118,7 +122,7 @@ void pembelian(){
     printf("\t\t\tEmail\n\t\t\t>> ");
     scanf("%s", &email);
     printf("\t\t\tNo HP\n\t\t\t>> ");
-    scanf("%s", &tlpn);
+    tlpn = cek();
     printf("\t\t\tJumlah tiket dibeli\n\t\t\t>> ");
     scanf("%d", &n);
     
@@ -159,7 +163,7 @@ kembali:
 		list_tiket();
 	break;
 	case 9:
-		home_page();
+		user();
 	break;
     default :
         system("cls");
@@ -195,15 +199,18 @@ kembali:
     switch (hari){
     	case 1:
     		strcpy(phari, "Jum'at");
-            struk_tiket(n, nama, email, tlpn, phari, pclas);
+            pembayaran();
+            //struk_tiket(n, nama, email, tlpn, phari, pclas);
     	break;
     	case 2:
     		strcpy(phari, "Sabtu");
-            struk_tiket(n, nama, email, tlpn, phari, pclas);
+            pembayaran();
+            // struk_tiket(n, nama, email, tlpn, phari, pclas);
     	break;
     	case 3:
     		strcpy(phari, "Minggu");
-            struk_tiket(n, nama, email, tlpn, phari, pclas);
+            pembayaran();
+            // struk_tiket(n, nama, email, tlpn, phari, pclas);
     	break;
     	default:
     		system("cls");
@@ -237,12 +244,15 @@ kembali:
     switch (jenis)
     {
     case 1:
+        harga_tiket = 500000;
         strcpy(pclas, "VVIP");
     break;
     case 2:
+        harga_tiket = 300000;
         strcpy(pclas, "GOLD");
     break;
     case 3:
+        harga_tiket = 150000;
         strcpy(pclas, "SILVER");
     break;
     break;
@@ -255,5 +265,73 @@ kembali:
         system("cls");
         goto kembali;
     break;
+    }
+}
+
+void pembayaran(){
+    int jumlah, bayar, kembalian, pilihan;
+
+    jumlah = n * harga_tiket;
+
+b1:
+    system("cls");
+    printf("\t\t\t--------------------------------\n");
+    printf("\t\t\t|Jumlah Pembayaran >> %d |\n", jumlah);
+    printf("\t\t\t--------------------------------\n");
+    printf("\t\t\tBayar\n\t\t\t>> ");
+    bayar = cek();
+    
+    if(bayar > jumlah){
+        kembalian = bayar - jumlah;
+        printf("\t\t\t--------------------------------\n");
+        printf("\t\t\t|Jumlah Kembalian >> %d |\n", kembalian);
+        printf("\t\t\t--------------------------------\n");
+    }else{
+        printf("\t\t\t--------------------------------\n");
+        printf("\t\t\t|       UANG ANDA KURANG       |\n");
+        printf("\t\t\t--------------------------------\n");
+        system("pause");
+        system("cls");
+        goto b1;
+    }
+
+b2:
+    
+    printf("\t\t\t--------------------------------\n");
+    printf("\t\t\t|      CETAK TIKET KONSER      |\n");
+    printf("\t\t\t--------------------------------\n");
+    printf("\t\t\t|  [1] IYA     ||  [2] TIDAK   |\n");
+    printf("\t\t\t--------------------------------\n");
+    pilihan = cek();
+
+    if(pilihan = 1){
+        struk_tiket(n, nama, email, tlpn, phari, pclas);
+    }else if(pilihan = 2){
+        exit(0);
+    }else{
+        printf("\t\t\t---------------------------------------------\n");
+        printf("\t\t\t|               INPUTAN ERROR               |\n");
+        printf("\t\t\t---------------------------------------------\n");
+        system("pause");
+        system("cls");
+        goto b2;
+    }
+
+}
+
+int cek(){
+    int angka;
+    char karekter;
+
+    if(scanf("\t\t\t%d%c", &angka,&karekter)!=2 || angka < 1 || karekter != '\n'){
+	    fflush(stdin);
+        // system("cls");
+        printf("\t\t\t---------------------------------------------\n");
+        printf("\t\t\t|               INPUTAN ERROR               |\n");
+        printf("\t\t\t---------------------------------------------\n");
+        printf("\t\t\t>> ");
+        return cek();
+    }else{
+        return angka;
     }
 }

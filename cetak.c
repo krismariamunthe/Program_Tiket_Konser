@@ -5,10 +5,10 @@
 int x;
 time_t waktu;
 
-void cetak_tiket(int n, char nama[30],char email[15], char tlpn[15], char phari[10], char pclas[10]);
+void cetak_tiket(int n, char nama[30],char email[15], int tlpn, char phari[10], char pclas[10]);
 void beli(int n);
 
-void struk_tiket(int n, char nama[30], char email[15], char tlpn[15], char phari[10], char pclas[10]){
+void struk_tiket(int n, char nama[30], char email[15], int tlpn, char phari[10], char pclas[10]){
 	
     int i;
 
@@ -44,7 +44,7 @@ void beli(int n){
     fclose(file2);
 }
 
-void cetak_tiket(int n, char nama[30],char email[15], char tlpn[15], char phari[10], char pclas[10]){
+void cetak_tiket(int n, char nama[30],char email[15], int tlpn, char phari[10], char pclas[10]){
 	FILE* tiket=fopen("struk tiket.txt", "a+");
 	
 	time(&waktu);
@@ -56,7 +56,7 @@ void cetak_tiket(int n, char nama[30],char email[15], char tlpn[15], char phari[
     fprintf(tiket,"\t\t\t|  CLASS TIKET    >  %s\t\t\t\t\t\t|\n", pclas);
     fprintf(tiket,"\t\t\t|  DAY            >  %s\t\t\t\t\t\t|\n", phari);
     fprintf(tiket,"\t\t\t|  NAMA PELANGGAN >  %s\t\t\t\t\t\t|\n", nama);
-    fprintf(tiket,"\t\t\t|  NOMOR TELEPON  >  %s\t\t\t\t\t\t|\n", tlpn);
+    fprintf(tiket,"\t\t\t|  NOMOR TELEPON  >  %d\t\t\t\t\t\t|\n", tlpn);
     fprintf(tiket,"\t\t\t|  EMAIL          >  %s\t\t\t\t\t\t|\n", email);
     fprintf(tiket,"\t\t\t|  DATE PEMBELIAN >  %s\t\t\t\t|\n", ctime (&waktu));
 	fprintf(tiket,"\t\t\t|------------------------------------------------|\n\n");   

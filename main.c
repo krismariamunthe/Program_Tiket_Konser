@@ -118,11 +118,11 @@ void login() {
 		system ("cls");
 
         if (strcmp(username,"admin") == 0 && strcmp(password,"00000") == 0){
-            home();
+            halaman_admin();
         }else{
-            home_page();
+            halaman_user();
         }
-		menu();
+		//menu();
 	}
 
 	//rekurens

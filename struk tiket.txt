@@ -24,3 +24,198 @@
 				|
 			|------------------------------------------------|
 
+			--------------------------------------------------
+			|<<<<<<<<<<<<<<<<   STRUK TIKET   >>>>>>>>>>>>>>>|
+			|------------------------------------------------|
+			|  NOMOR TIKET    >  241						|
+			|  CLASS TIKET    >  VVIP						|
+			|  DAY            >  Jum'at						|
+			|  NAMA PELANGGAN >  krismaria munthe						|
+			|  NOMOR TELEPON  >  213						|
+			|  EMAIL          >  kris						|
+			|  DATE PEMBELIAN >  Mon Dec 26 14:05:41 2022
+				|
+			|------------------------------------------------|
+
+			--------------------------------------------------
+			|<<<<<<<<<<<<<<<<   STRUK TIKET   >>>>>>>>>>>>>>>|
+			|------------------------------------------------|
+			|  NOMOR TIKET    >  667						|
+			|  CLASS TIKET    >  VVIP						|
+			|  DAY            >  Jum'at						|
+			|  NAMA PELANGGAN >  krismaria munthe						|
+			|  NOMOR TELEPON  >  213						|
+			|  EMAIL          >  kris						|
+			|  DATE PEMBELIAN >  Mon Dec 26 14:05:41 2022
+				|
+			|------------------------------------------------|
+
+			--------------------------------------------------
+			|<<<<<<<<<<<<<<<<   STRUK TIKET   >>>>>>>>>>>>>>>|
+			|------------------------------------------------|
+			|  NOMOR TIKET    >  234						|
+			|  CLASS TIKET    >  VVIP						|
+			|  DAY            >  Jum'at						|
+			|  NAMA PELANGGAN >  krismaria munthe						|
+			|  NOMOR TELEPON  >  213						|
+			|  EMAIL          >  kris						|
+			|  DATE PEMBELIAN >  Mon Dec 26 14:05:41 2022
+				|
+			|------------------------------------------------|
+
+			--------------------------------------------------
+			|<<<<<<<<<<<<<<<<   STRUK TIKET   >>>>>>>>>>>>>>>|
+			|------------------------------------------------|
+			|  NOMOR TIKET    >  241						|
+			|  CLASS TIKET    >  SILVER						|
+			|  DAY            >  Minggu						|
+			|  NAMA PELANGGAN >  krismaria						|
+			|  NOMOR TELEPON  >  tes						|
+			|  EMAIL          >  tes						|
+			|  DATE PEMBELIAN >  Mon Dec 26 14:42:02 2022
+				|
+			|------------------------------------------------|
+
+			--------------------------------------------------
+			|<<<<<<<<<<<<<<<<   STRUK TIKET   >>>>>>>>>>>>>>>|
+			|------------------------------------------------|
+			|  NOMOR TIKET    >  667						|
+			|  CLASS TIKET    >  SILVER						|
+			|  DAY            >  Minggu						|
+			|  NAMA PELANGGAN >  krismaria						|
+			|  NOMOR TELEPON  >  tes						|
+			|  EMAIL          >  tes						|
+			|  DATE PEMBELIAN >  Mon Dec 26 14:42:02 2022
+				|
+			|------------------------------------------------|
+
+			--------------------------------------------------
+			|<<<<<<<<<<<<<<<<   STRUK TIKET   >>>>>>>>>>>>>>>|
+			|------------------------------------------------|
+			|  NOMOR TIKET    >  234						|
+			|  CLASS TIKET    >  SILVER						|
+			|  DAY            >  Minggu						|
+			|  NAMA PELANGGAN >  krismaria						|
+			|  NOMOR TELEPON  >  tes						|
+			|  EMAIL          >  tes						|
+			|  DATE PEMBELIAN >  Mon Dec 26 14:42:02 2022
+				|
+			|------------------------------------------------|
+
+			--------------------------------------------------
+			|<<<<<<<<<<<<<<<<   STRUK TIKET   >>>>>>>>>>>>>>>|
+			|------------------------------------------------|
+			|  NOMOR TIKET    >  600						|
+			|  CLASS TIKET    >  SILVER						|
+			|  DAY            >  Minggu						|
+			|  NAMA PELANGGAN >  krismaria						|
+			|  NOMOR TELEPON  >  tes						|
+			|  EMAIL          >  tes						|
+			|  DATE PEMBELIAN >  Mon Dec 26 14:42:02 2022
+				|
+			|------------------------------------------------|
+
+			--------------------------------------------------
+			|<<<<<<<<<<<<<<<<   STRUK TIKET   >>>>>>>>>>>>>>>|
+			|------------------------------------------------|
+			|  NOMOR TIKET    >  469						|
+			|  CLASS TIKET    >  SILVER						|
+			|  DAY            >  Minggu						|
+			|  NAMA PELANGGAN >  krismaria						|
+			|  NOMOR TELEPON  >  tes						|
+			|  EMAIL          >  tes						|
+			|  DATE PEMBELIAN >  Mon Dec 26 14:42:02 2022
+				|
+			|------------------------------------------------|
+
+			--------------------------------------------------
+			|<<<<<<<<<<<<<<<<   STRUK TIKET   >>>>>>>>>>>>>>>|
+			|------------------------------------------------|
+			|  NOMOR TIKET    >  241						|
+			|  CLASS TIKET    >  VVIP						|
+			|  DAY            >  Minggu						|
+			|  NAMA PELANGGAN >  kris						|
+			|  NOMOR TELEPON  >  241						|
+			|  EMAIL          >  kris						|
+			|  DATE PEMBELIAN >  Mon Dec 26 14:43:03 2022
+				|
+			|------------------------------------------------|
+
+			--------------------------------------------------
+			|<<<<<<<<<<<<<<<<   STRUK TIKET   >>>>>>>>>>>>>>>|
+			|------------------------------------------------|
+			|  NOMOR TIKET    >  667						|
+			|  CLASS TIKET    >  VVIP						|
+			|  DAY            >  Minggu						|
+			|  NAMA PELANGGAN >  kris						|
+			|  NOMOR TELEPON  >  241						|
+			|  EMAIL          >  kris						|
+			|  DATE PEMBELIAN >  Mon Dec 26 14:43:03 2022
+				|
+			|------------------------------------------------|
+
+			--------------------------------------------------
+			|<<<<<<<<<<<<<<<<   STRUK TIKET   >>>>>>>>>>>>>>>|
+			|------------------------------------------------|
+			|  NOMOR TIKET    >  241						|
+			|  CLASS TIKET    >  GOLD						|
+			|  DAY            >  Sabtu						|
+			|  NAMA PELANGGAN >  INDAH						|
+			|  NOMOR TELEPON  >  431						|
+			|  EMAIL          >  indah						|
+			|  DATE PEMBELIAN >  Mon Dec 26 14:52:49 2022
+				|
+			|------------------------------------------------|
+
+			--------------------------------------------------
+			|<<<<<<<<<<<<<<<<   STRUK TIKET   >>>>>>>>>>>>>>>|
+			|------------------------------------------------|
+			|  NOMOR TIKET    >  667						|
+			|  CLASS TIKET    >  GOLD						|
+			|  DAY            >  Sabtu						|
+			|  NAMA PELANGGAN >  INDAH						|
+			|  NOMOR TELEPON  >  431						|
+			|  EMAIL          >  indah						|
+			|  DATE PEMBELIAN >  Mon Dec 26 14:52:49 2022
+				|
+			|------------------------------------------------|
+
+			--------------------------------------------------
+			|<<<<<<<<<<<<<<<<   STRUK TIKET   >>>>>>>>>>>>>>>|
+			|------------------------------------------------|
+			|  NOMOR TIKET    >  234						|
+			|  CLASS TIKET    >  GOLD						|
+			|  DAY            >  Sabtu						|
+			|  NAMA PELANGGAN >  INDAH						|
+			|  NOMOR TELEPON  >  431						|
+			|  EMAIL          >  indah						|
+			|  DATE PEMBELIAN >  Mon Dec 26 14:52:49 2022
+				|
+			|------------------------------------------------|
+
+			--------------------------------------------------
+			|<<<<<<<<<<<<<<<<   STRUK TIKET   >>>>>>>>>>>>>>>|
+			|------------------------------------------------|
+			|  NOMOR TIKET    >  600						|
+			|  CLASS TIKET    >  GOLD						|
+			|  DAY            >  Sabtu						|
+			|  NAMA PELANGGAN >  INDAH						|
+			|  NOMOR TELEPON  >  431						|
+			|  EMAIL          >  indah						|
+			|  DATE PEMBELIAN >  Mon Dec 26 14:52:49 2022
+				|
+			|------------------------------------------------|
+
+			--------------------------------------------------
+			|<<<<<<<<<<<<<<<<   STRUK TIKET   >>>>>>>>>>>>>>>|
+			|------------------------------------------------|
+			|  NOMOR TIKET    >  469						|
+			|  CLASS TIKET    >  GOLD						|
+			|  DAY            >  Sabtu						|
+			|  NAMA PELANGGAN >  INDAH						|
+			|  NOMOR TELEPON  >  431						|
+			|  EMAIL          >  indah						|
+			|  DATE PEMBELIAN >  Mon Dec 26 14:52:49 2022
+				|
+			|------------------------------------------------|
+

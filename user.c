@@ -4,15 +4,15 @@
 
 void info();
 int inputan();
-void page();
+//void user(void);
 
-//int main(){
-//    home_page();
-//return 0;
-//}
+int main(){
+   user();
+return 0;
+}
 
 
-void page() {
+void user() {
     int pilihan;
 
     kembali1:
@@ -69,14 +69,14 @@ void info(){
     printf("\t\t\t|------------------------------------------------|\n");
     system("pause");
     system("cls");
-    page();
+    user();
 }
 
 int input(){
     int angka;
     char karekter;
 
-    if(scanf("%d%c", &angka,&karekter)!=2 || angka < 1 || karekter != '\n'){
+    if(scanf("\t\t\t%d%c", &angka,&karekter)!=2 || angka < 1 || karekter != '\n'){
 	    fflush(stdin);
         system("cls");
         printf("\t\t\t---------------------------------------------\n");

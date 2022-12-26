@@ -9,7 +9,7 @@ void info();
 // return 0;
 // }
 
-void home() {
+void halaman_admin() {
     int pilihan;
 
     kembali1:
