@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include <string.h>
 #include <windows.h>
-#include "admin.c"
-#include "user.c"
+#include "file admin.c"
+#include "file user.c"
 
 
-typedef struct user{		   //variabel dalam fungsi registrasi dan login
+typedef struct akun{		   //variabel dalam fungsi registrasi dan login
     char nama [50];
     char username [20];
     char password [20];
-} user;
+} akun;
 
-user Pengguna;
+akun Pengguna;
 
 char inputusername [20];	 //variabel dalam fungsi login
 char inputpassword [20];
