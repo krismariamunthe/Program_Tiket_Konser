@@ -54,21 +54,6 @@ void _user(){
 void info(){
 	system("cls");
 	printf("\t\t\t--------------------------------------------------\n");
-<<<<<<< Updated upstream
-    printf("\t\t\t|<<<<<<<<<<<<<<    INFO PROGRAM   >>>>>>>>>>>>>>>>|\n");
-    printf("\t\t\t|-------------------------------------------------|\n");
-    printf("\t\t\t|          PROGRAM PEMBELIAN TIKET KONSER         |\n");
-    printf("\t\t\t|           TUBES ALGORITMA PEMROGRAMAN           |\n");
-    printf("\t\t\t|            UNIVERSITAS UDAYANA 2022             |\n");
-    printf("\t\t\t|-------------------------------------------------|\n");
-    printf("\t\t\t|             PROGRAM INI DIBUAT OLEH             |\n");
-    printf("\t\t\t|-------------------------------------------------|\n");
-    printf("\t\t\t|         NAMA             |         NIM          |\n");
-    printf("\t\t\t|-------------------------------------------------|\n");
-    printf("\t\t\t|  [-]  KRISMARIA MUNTHE   |     2205551045       |\n");
-    printf("\t\t\t|  [-]  RAY SIMON SOMBOLON |     2205551064       |\n");
-    printf("\t\t\t|-------------------------------------------------|\n");
-=======
     printf("\t\t\t|<<<<<<<<<<<<<<   INFO PROGRAM   >>>>>>>>>>>>>>>>|\n");
     printf("\t\t\t|------------------------------------------------|\n");
     printf("\t\t\t|         PROGRAM PEMBELIAN TIKET KONSER         |\n");
