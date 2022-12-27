@@ -2,6 +2,7 @@ Nama user: Krismaria
 Username : kris
 Password : kris
 ================================
+<<<<<<< HEAD
 Nama user: krismaria
 Username : krismaria
 Password : krismaria
@@ -9,4 +10,9 @@ Password : krismaria
 Nama user: ria
 Username : ria
 Password : ria
+=======
+Nama user: kris
+Username : kris
+Password : kris
+>>>>>>> 6cd9851882edf48c16c4a7c78ac31119100562f4
 ================================

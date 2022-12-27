@@ -4,6 +4,7 @@
 
 void info();
 void kembali2();
+void lihat_stok();
 
 //  int main(){
 //      halaman_admin();
@@ -19,6 +20,7 @@ void halaman_admin() {
     printf("\t\t\t|------------------------------------------------|\n");
     printf("\t\t\t|  [1]  DATA PEMBELIAN TIKET                     |\n");
     printf("\t\t\t|  [2]  JUMLAH TIKET TERJUAL                     |\n");
+    printf("\t\t\t|  [3]  STOK TIKET                               |\n");
     printf("\t\t\t|  [0]  EXIT                                     |\n");
     printf("\t\t\t|------------------------------------------------|\n");
     printf("\t\t\t>> ");
@@ -26,6 +28,9 @@ void halaman_admin() {
     fflush(stdin);
 
     switch(pilihan){
+        case 0: 
+            exit(0);
+        break;
         case 1: 
             system("cls");
             data_tiket();
@@ -37,7 +42,9 @@ void halaman_admin() {
             kembali2();
         break;
         case 3:
-            exit(0);
+            system("cls");
+            lihat_stok();
+            kembali2();
         break;
         default :
             system("cls");
@@ -91,4 +98,14 @@ int inputan(){
     }else{
         return angka;
     }
+}
+
+
+void lihat_stok(){
+    FILE* pt4=fopen("stok tiket.txt", "r");
+    char string[10];
+
+    printf("\t\t\tStok Tiket\n\t\t\t>> ");
+    fscanf(pt4,"%[^\n]\n", string);
+    puts(string);
 }
