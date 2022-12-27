@@ -17,7 +17,7 @@ char inputusername [20];	 //variabel dalam fungsi login
 char inputpassword [20];
 
 //AKUN YANG BISA DIGUNAKAN UNTUK LOGIN
-char username[20] = "admin";
+char username[20] = "ADMIN";
 char password[20] = "00000";
 
 void mode();

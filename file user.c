@@ -67,7 +67,7 @@ void info(){
     printf("\t\t\t|  [-]  KRISMARIA MUNTHE  |     2205551045       |\n");
     printf("\t\t\t|  [-]  RAY SIMON SIMBOLON|     2205551064       |\n");
     printf("\t\t\t|------------------------------------------------|\n");
->>>>>>> Stashed changes
+
     system("pause");
     system("cls");
     _user();
