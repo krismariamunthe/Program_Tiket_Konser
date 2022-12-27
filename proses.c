@@ -18,6 +18,7 @@ void pilih_hari();
 void pilih_tiket();
 void pembayaran();
 int cek();
+void ulang();
 
 void list_tiket(){
     int jenis;
@@ -45,7 +46,7 @@ kembali:
         break;
         case 0:
             system("cls");
-            // user();
+            _user();
         break;
         default :
             system("cls");
@@ -96,7 +97,7 @@ kembali:
         break;
         case 9:
             system("cls");
-            // user();
+            _user();
         break;
         default:
             system("cls");
@@ -163,7 +164,7 @@ kembali:
 		list_tiket();
 	break;
 	case 9:
-		// user();
+		//user12();
 	break;
     default :
         system("cls");
@@ -281,7 +282,7 @@ b1:
     printf("\t\t\tBayar\n\t\t\t>> ");
     bayar = cek();
     
-    if(bayar > jumlah){
+    if(bayar >= jumlah){
         kembalian = bayar - jumlah;
         printf("\t\t\t--------------------------------\n");
         printf("\t\t\t|Jumlah Kembalian >> %d |\n", kembalian);
@@ -306,6 +307,9 @@ b2:
 
     if(pilihan = 1){
         struk_tiket(n, nama, email, tlpn, phari, pclas);
+        system("pause");
+        system("cls");
+        ulang();
     }else if(pilihan = 2){
         exit(0);
     }else{
@@ -317,6 +321,31 @@ b2:
         goto b2;
     }
 
+}
+
+void ulang(){
+    int nilai;
+c1:
+    printf("\n\n\t\t\t================================\n");
+    printf("\t\t\t|       BELI TIKET LAGI?       |\n");
+    printf("\t\t\t================================\n");
+    printf("\t\t\t|  [1] IYA      |  [2] TIDAK    \n");
+    printf("\t\t\t================================\n");
+    printf("\t\t\t>> ");
+    nilai = cek();
+
+    if(nilai == 1) {
+        pembelian();
+    }else if(nilai == 2) {
+        exit(0);
+    }else{
+        printf("\t\t\t---------------------------------------------\n");
+        printf("\t\t\t|               INPUTAN ERROR               |\n");
+        printf("\t\t\t---------------------------------------------\n");
+        system("pause");
+        system("cls");
+        goto c1;
+    }
 }
 
 int cek(){

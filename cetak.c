@@ -2,11 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 
+
 int x;
 time_t waktu;
 
 void cetak_tiket(int n, char nama[30],char email[15], int tlpn, char phari[10], char pclas[10]);
 void beli(int n);
+
 
 void struk_tiket(int n, char nama[30], char email[15], int tlpn, char phari[10], char pclas[10]){
 	
@@ -50,7 +52,7 @@ void cetak_tiket(int n, char nama[30],char email[15], int tlpn, char phari[10], 
 	time(&waktu);
 
 	fprintf(tiket,"\t\t\t--------------------------------------------------\n");
-    fprintf(tiket,"\t\t\t|<<<<<<<<<<<<<<<<   STRUK TIKET   >>>>>>>>>>>>>>>|\n");
+    fprintf(tiket,"\t\t\t|================   STRUK TIKET   ===============|\n");
     fprintf(tiket,"\t\t\t|------------------------------------------------|\n");
     fprintf(tiket,"\t\t\t|  NOMOR TIKET    >  %d\t\t\t\t\t\t|\n", x);
     fprintf(tiket,"\t\t\t|  CLASS TIKET    >  %s\t\t\t\t\t\t|\n", pclas);

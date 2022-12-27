@@ -96,7 +96,7 @@ void registrasi() {	//deklarasi fungsi void
 void login() {
 
 	system("cls");
-	printf ("\n\n\t\t\t\t--------------------------------------------------\n");
+	printf ("\n\n\t\t\t\t----------------------------------------------------\n");
     printf ("\t\t\t\t===================     LOGIN    ===================\n");
     printf ("\t\t\t\t--------------------------------------------------\n");
 	printf ("\n");
@@ -108,9 +108,10 @@ void login() {
 	fflush (stdin);
 
 	//basis
+
 	if ((strcmp(username, inputusername) == 0 || strcmp(Pengguna.username, inputusername) == 0) && ( strcmp(password, inputpassword) == 0 || strcmp(Pengguna.password, inputpassword) == 0 )	){
 		system ("cls");
-		printf ("\n\n\t\t\t\t--------------------------------------------------\n");
+		printf ("\n\n\t\t\t\t----------------------------------------------------\n");
         printf ("\t\t\t\t===================  S U K S E S  ==================\n");
         printf ("\t\t\t\t----------------------------------------------------\n");
 		sleep(1);
@@ -120,7 +121,7 @@ void login() {
         if (strcmp(username,"admin") == 0 && strcmp(password,"00000") == 0){
             halaman_admin();
         }else{
-            user12();
+            _user();
         }
 		//menu();
 	}
@@ -128,7 +129,7 @@ void login() {
 	//rekurens
     else {
         system ("cls");
-        printf ("\n\n\t\t\t\t--------------------------------------------------\n");
+        printf ("\n\n\t\t\t\t----------------------------------------------------\n");
         printf ("\t\t\t\t===================   G A G A L   ==================\n");
         printf ("\t\t\t\t----------------------------------------------------\n");
 
