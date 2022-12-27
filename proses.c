@@ -19,6 +19,7 @@ void pilih_tiket();
 void pembayaran();
 int cek();
 void ulang();
+int stok_tiket();
 
 void list_tiket(){
     int jenis;
@@ -111,7 +112,32 @@ kembali:
     }
 }
 
+int stok_tiket(int n){
+    int jumlah_tiket, total;
+    FILE* fl=fopen("stok tiket.txt", "r");
+
+    fscanf(fl,"%d", &jumlah_tiket);
+    fclose(fl);
+
+    FILE* fl2=fopen("stok tiket.txt", "w");
+    total = jumlah_tiket - n;
+
+    if(total < 1){
+        printf("\t\t\t--------------------------------------------------\n");
+        printf("\t\t\t|             STOK TIKET TELAH HABIS             |\n");
+        printf("\t\t\t--------------------------------------------------\n");
+        fprintf (fl2,"%d", jumlah_tiket);
+        exit(0);
+    }
+    fprintf (fl2,"%d", total);
+    fclose(fl2);
+
+    return total;
+}
+
 void pembelian(){
+
+    int tiket();
 
     system("cls");
     printf("\t\t\t--------------------------------------------------\n");
@@ -127,6 +153,8 @@ void pembelian(){
     printf("\t\t\tJumlah tiket dibeli\n\t\t\t>> ");
     scanf("%d", &n);
     
+    stok_tiket(n);
+
     system("cls");
     pilih_tiket();
     system("cls");

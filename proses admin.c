@@ -17,7 +17,7 @@ void tiket_jual(){
     FILE* pt2=fopen("tiket terjual.txt", "r");
     char string[10];
 
-    printf("Jumlah tiket yang terjual\n>> ");
+    printf("\t\t\tJumlah tiket yang terjual\n\t\t\t>> ");
     fscanf(pt2,"%[^\n]\n", string);
     puts(string);
 }
